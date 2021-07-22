@@ -49,11 +49,12 @@ b) goto https://justy.duckdns.org , user: vinanthi@cloudiq.io password: rUwo15Z&
 c) git hub: https://github.com/jsutinYoung/Energy-Forecast-Frontend  
   
 #------------------------------------------------------------------------------------------
+4. Components & Services:  
   
-4. Services:  
+a. Services:  
    I've created the service files for the AuthGuard, which are auth.service.ts and token.service.ts  
   
-5. Interceptor:  
+b. Interceptor:  
    A HTTP interceptor is used to add an authenticated Token as Bearer in the header to every http API call to the backend, I use a test backend API http://localhost:8000/hello  
   
 Except during the login process, the HTTP interceptor filters out the login URL.  
@@ -61,38 +62,34 @@ There are two URL for login page: 1) (Client) http://localhost:4200/login 2)(Ser
   
 Without the HTTP interceptor, the Token has to be placed in a header of every HTTP API backend call. Interceptor centralize and save coding.  
   
-6. Route Guard:  
+c. Route Guard:  
    I add a route guard to the home component by creating a guard component called auth-guard using canActivate interface.  
   
-7. Error Page:  
+d. Error Page:  
    I also create an error page component for any url does not exist in this app.  
   
-8. Validation:  
+e. Validation:  
    Validations are added to both email and password input. Error message appears when certain criteria aren't met.  
   
 #------------------------------------------------------------------------------------------
   
-List of files I created for this app:  
+5.List of files I created for this app:  
   
-Frontend:  
-  
-1. components:  
-  
+a. Frontend:  
+  components:  
    - error-page     
    - home  
    - login   
    - app  
   
-2. services:  
-  
+  services:  
    - auth  
    - token   
    
-3. others:  
+  others:  
    - auth-interceptor  
    - auth-guard  
   
-Backend:  
-  
-1. backend server - index.js  
-2. mock user list - users.json  
+b. Backend:  
+   backend server - index.js  
+   mock user list - users.json  
