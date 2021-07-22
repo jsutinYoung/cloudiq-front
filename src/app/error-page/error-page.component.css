@@ -1,0 +1,21 @@
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.mat-card {
+  height: 10%;
+  width: 20%;
+  padding: 100px;
+  margin: 20px;
+  background-color: rgb(211, 207, 207);
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

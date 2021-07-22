@@ -1,0 +1,50 @@
+<div class="container">
+  <mat-card class="card">
+    <div class="example-container">
+      <mat-form-field appearance="outline" class="formField">
+        <mat-label>Enter your email</mat-label>
+        <input
+          #inuser
+          matInput
+          placeholder="pat@example.com"
+          [formControl]="email"
+          required
+        />
+        <mat-error *ngIf="email.invalid">{{ getErrorEmail() }}</mat-error>
+      </mat-form-field>
+      <br />
+      <br />
+
+      <mat-form-field appearance="outline" class="formField">
+        <mat-label>Enter your password</mat-label>
+        <input
+          #inpass
+          matInput
+          [type]="hide ? 'password' : 'text'"
+          [formControl]="password"
+        />
+        <mat-error *ngIf="password.invalid">{{ getErrorMessage() }}</mat-error>
+        <button
+          mat-icon-button
+          matSuffix
+          (click)="hide = !hide"
+          [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide"
+        >
+          <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+        </button>
+      </mat-form-field>
+    </div>
+    <br />
+    <section>
+      <div class="button">
+        <button
+          mat-raised-button
+          (click)="onClickLogin(inuser.value, inpass.value)"
+        >
+          login
+        </button>
+      </div>
+    </section>
+  </mat-card>
+</div>
