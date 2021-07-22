@@ -37,7 +37,7 @@ b) Run Client using:
      ng serve   
    Run server using:   
      npm install   
-     node index.js. 
+     node index.js.   
 c) point Browser to http://localhost:4200  
   
 #------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ c) point Browser to http://localhost:4200
 3. Further reference:  
   
 a) I've create a full app as part of non-paid intern for a real company product using all these techniques.  
-b) goto https://justy.duckdns.org , user: vinanthi@cloudiq.io password: rUwo15Z&7 
+b) goto https://justy.duckdns.org , user: vinanthi@cloudiq.io password: rUwo15Z&7   
 c) git hub: https://github.com/jsutinYoung/Energy-Forecast-Frontend  
   
 #------------------------------------------------------------------------------------------
