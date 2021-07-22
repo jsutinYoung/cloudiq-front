@@ -37,7 +37,7 @@ b) Run Client using:
      ng serve   
    Run server using:   
      npm install   
-     node index.js.   
+     node index.js    
 c) point Browser to http://localhost:4200  
   
 #------------------------------------------------------------------------------------------
@@ -51,7 +51,7 @@ c) git hub: https://github.com/jsutinYoung/Energy-Forecast-Frontend
 #------------------------------------------------------------------------------------------
   
 4. Services:  
-   I've created the service files for the AuthGuard, which are auth.service.ts and token.service.ts. 
+   I've created the service files for the AuthGuard, which are auth.service.ts and token.service.ts  
   
 5. Interceptor:  
    A HTTP interceptor is used to add an authenticated Token as Bearer in the header to every http API call to the backend, I use a test backend API http://localhost:8000/hello  
@@ -71,28 +71,28 @@ Without the HTTP interceptor, the Token has to be placed in a header of every HT
    Validations are added to both email and password input. Error message appears when certain criteria aren't met.  
   
 #------------------------------------------------------------------------------------------
-
+  
 List of files I created for this app:  
   
-Frontend  
+Frontend:  
   
-1. components. 
-
-   - error-page. 
-   - home. 
-   - login. 
+1. components:  
+  
+   - error-page     
+   - home  
+   - login   
    - app  
   
 2. services:  
   
-   - auth. 
-   - token. 
+   - auth  
+   - token   
    
 3. others:  
-   - auth-interceptor. 
-   - auth-guard. 
+   - auth-interceptor  
+   - auth-guard  
   
 Backend:  
-
+  
 1. backend server - index.js  
 2. mock user list - users.json  
