@@ -26,6 +26,9 @@ Note, this applicatoin does not implement robust error codes .
 2. Installation instruction:
 
 a) Git Clone both projects and run in the same machine to test the functionality.
+https://github.com/jsutinYoung/cloudiq-front.git
+https://github.com/jsutinYoung/cloudiq-back.git
+
 b) Run Client using: ng serve , run server using: node index.js
 c) point Browser to http://localhost:4200
 
