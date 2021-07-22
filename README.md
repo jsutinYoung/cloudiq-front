@@ -4,7 +4,7 @@ Tools:
 Frontend: Angular 11.2.14, Angular Material. 
 Backend: Node 10.21.0, Express 4.16.4. 
   
-#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------  
   
 1. Authentication flow:
   
@@ -24,7 +24,7 @@ m) If logout button is pushed on the Home component, the Token will be cleared o
   
 Note, this applicatoin does not implement robust error codes .  
   
-#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------  
   
 2. Installation instruction:
   
@@ -40,7 +40,7 @@ b) Run Client using:
      node index.js    
 c) point Browser to http://localhost:4200  
   
-#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------  
   
 3. Further reference:  
   
@@ -48,7 +48,7 @@ a) I've create a full app as part of non-paid intern for a real company product 
 b) goto https://justy.duckdns.org , user: vinanthi@cloudiq.io password: rUwo15Z&7   
 c) git hub: https://github.com/jsutinYoung/Energy-Forecast-Frontend  
   
-#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------  
 4. Components & Services:  
   
 a. Services:  
@@ -71,7 +71,7 @@ d. Error Page:
 e. Validation:  
    Validations are added to both email and password input. Error message appears when certain criteria aren't met.  
   
-#------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------  
   
 5.List of files I created for this app:  
   
